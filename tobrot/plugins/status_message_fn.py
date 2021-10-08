@@ -87,7 +87,7 @@ async def status_message_f(
 
                 percentage = int(file.progress_string(0).split('%')[0])
                 prog = "[{0}{1}]".format("".join([FINISHED_PROGRESS_STR for i in range(math.floor(percentage / 5))]),"".join([UN_FINISHED_PROGRESS_STR for i in range(20 - math.floor(percentage / 5))]))
-                msg += f"<b>⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊⑊</b>\n"
+                msg += f"<b>▬▬▬ @KOT_BOTS ▬▬▬</b>\n"
                 msg += f"\n<b>🔖Filename:</b> <code>{downloading_dir_name}</code>"
                 msg += f"\n<b>📡 Status</b>: <i>Downloading...📥</i>"
                 msg += f"\n<code>{prog}</code>"
