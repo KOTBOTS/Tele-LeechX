@@ -74,15 +74,10 @@ from tobrot.plugins.status_message_fn import (
 
 botcmds = [
         (f'{BotCommands.YtdlCommandmands.YtdlCommand}','🧲 [Reply] YT-DL Links for Uploading...'),
-
         (f'{BotCommands.PytdlCommand}','🧧 [Reply] YT-DL Playlists Links for Uploading...'),
-
- (f'{BotCommands.SaveCommand}','🖼 Save Thumbnail For Uploads'),
-
+        (f'{BotCommands.SaveCommand}','🖼 Save Thumbnail For Uploads'),
         (f'{BotCommands.ClearCommand}','🕹 Clear Thumbnail '),
-
         (f'{BotCommands.StatusCommand}','🖲 Show Bot stats and concurrent Downloads'),
-
     ]
 if __name__ == "__main__":
     # create download directory, if not exist
